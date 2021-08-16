@@ -1,22 +1,36 @@
 # Gerador_Fractal
 Programa que gera imagens fractais e/ou vídeos fractais.
+</br>
 Construído maioritariamente em java, este programa permite criar qualquer tipo de imagem ou vídeo fractal com uma profundidade ilimitada, isto é possível usando a teoria da perturbação que permite alterar o algoritmo gerador fractal de modo a não ser necessário usar números arbitrariamente  grandes(BigInteger) para calcular toda a imagem.
-Também permite gerar vídeos fractais com vários computadores usando um sistema de sockets, balanceando as imagens fractais pelos computadores disponíveis em linha, permitindo gerar vídeos dinâmicos e que cheguem a grandes progundidades.
+</br>
+Também permite gerar vídeos fractais com vários computadores usando um sistema de sockets, balanceando as imagens fractais pelos computadores disponíveis em linha, permitindo gerar vídeos dinâmicos e que cheguem a grandes profundidades.
+</br>
 Ainda é possível variar no conjunto de paletes de cores, tal como no tamanho das imagens/videos, podendo criar imagens 4K das mais variadíssimas cores.
 
 ### Alguns exemplos:
-Normal Map Effect
+- Normal Map Effect
 <div float="left">
   <img src="https://user-images.githubusercontent.com/56278710/129489879-9d70ef56-59a0-4212-a4dd-48f48641072f.png">
    &nbsp; &nbsp;
   <img src="https://user-images.githubusercontent.com/56278710/129489719-e4421bdd-1e30-4dce-ab24-9c4904c31b54.png">
 </div>
 </br>
-Video de demonstração com cores aleatórias
+
+- Video de demonstração com cores aleatórias
 
 https://user-images.githubusercontent.com/56278710/129490035-5bd12542-f96c-4510-a049-0fbcbf571d8f.mp4
 
 </br>
 
+- Ponto Fractal Fundo
 
+centroX=-0.7538080458080413870383292849515763407614749294854666251601218860442545795832706758586050697061043992994928059119749824048771433258442431445229694805734178401577995189081842159182718737545806952935298542274989951637177156429156367402822615868952485816992927439971308652226099053387916653399830837796472494094871422846412277284272371911161267218450715
+
+centroY=-0.051824756745699712354034968784912517913912497981992964345365636818520494052949672240873268758125690939159572476321224950859490766956597227235724772933159398747020608125665681769008261377436351006939610599577503439097041068291601533279003720471614012688596624932305025523734402557440073871628609665180195712497652126576084701756750210617718492976706378
+
+Zoom(Profundidade)=3.0549363634996046820519793932136176997894027405723266638936139092812916265247204577018572351080152282568751526935904671553178534278042839697351331142009178896307244205337728522220355888195318837008165086679301794879136633899370525163649789227021200352450820912190874482021196014946372110934030798550767828365183620409339937395998276770114898681640625E-151
+
+![deep](https://user-images.githubusercontent.com/56278710/129497928-52226695-269a-4528-90bb-59b52ef1c9d8.png)
+
+Nota: Para construir videos fractais, é necessário ligar um balanceador(comando help para ajuda) e de seguida ligar os servidores ao mesmo.
 
